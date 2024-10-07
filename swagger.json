@@ -1,0 +1,63 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "API para autenticação de usuários",
+      "version": "1.0.0",
+      "title": "Autenticação API"
+    },
+    "host": "localhost:5000",
+    "basePath": "/",
+    "tags": [
+      {
+        "name": "autenticação",
+        "description": "Operações de autenticação"
+      }
+    ],
+    "paths": {
+      "/auth": {
+        "post": {
+          "tags": ["autenticação"],
+          "summary": "Autenticação de usuário",
+          "description": "Autentica um usuário com base no username e senha.",
+          "consumes": ["application/json"],
+          "produces": ["application/json"],
+          "parameters": [
+            {
+              "in": "body",
+              "name": "login",
+              "description": "Dados para autenticação",
+              "required": true,
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "type": "string",
+                    "example": "usuario123"
+                  },
+                  "password": {
+                    "type": "string",
+                    "example": "senha123"
+                  }
+                }
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Usuário autenticado com sucesso"
+            },
+            "401": {
+              "description": "Senha incorreta"
+            },
+            "403": {
+              "description": "IP não autorizado ou código de verificação incorreto"
+            },
+            "404": {
+              "description": "Usuário não encontrado"
+            }
+          }
+        }
+      }
+    }
+  }
+  
