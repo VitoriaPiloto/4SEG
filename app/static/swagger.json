@@ -1,0 +1,402 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "API de Exemplo",
+    "description": "Documentação da API",
+    "version": "1.0.0"
+  },
+  "host": "localhost:5000",
+  "basePath": "/",
+  "schemes": ["http"],
+  "paths": {
+    "/auth": {
+      "post": {
+        "summary": "Autenticação",
+        "description": "Autenticar um usuário",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UserAuth"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Autenticado com sucesso"
+          },
+          "401": {
+            "description": "Erro de autenticação"
+          }
+        }
+      }
+    },
+    "/professores": {
+      "get": {
+        "summary": "Obter todos os professores",
+        "description": "Retorna uma lista de todos os professores",
+        "responses": {
+          "200": {
+            "description": "Lista de professores",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Professor"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Criar professor",
+        "description": "Cria um novo professor",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Professor"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Professor criado com sucesso"
+          }
+        }
+      }
+    },
+    "/professores/{id}": {
+      "get": {
+        "summary": "Obter professor por ID",
+        "description": "Retorna um professor específico pelo ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Professor encontrado",
+            "schema": {
+              "$ref": "#/definitions/Professor"
+            }
+          },
+          "404": {
+            "description": "Professor não encontrado"
+          }
+        }
+      },
+      "put": {
+        "summary": "Atualizar professor",
+        "description": "Atualiza os dados de um professor",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Professor"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Professor atualizado com sucesso"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Deletar professor",
+        "description": "Remove um professor da base de dados",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Professor deletado com sucesso"
+          }
+        }
+      }
+    },
+    "/alunos": {
+      "get": {
+        "summary": "Obter todos os alunos",
+        "description": "Retorna uma lista de todos os alunos",
+        "responses": {
+          "200": {
+            "description": "Lista de alunos",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Aluno"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Criar aluno",
+        "description": "Cria um novo aluno",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Aluno"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Aluno criado com sucesso"
+          }
+        }
+      }
+    },
+    "/alunos/{id}": {
+      "get": {
+        "summary": "Obter aluno por ID",
+        "description": "Retorna um aluno específico pelo ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Aluno encontrado",
+            "schema": {
+              "$ref": "#/definitions/Aluno"
+            }
+          },
+          "404": {
+            "description": "Aluno não encontrado"
+          }
+        }
+      },
+      "put": {
+        "summary": "Atualizar aluno",
+        "description": "Atualiza os dados de um aluno",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Aluno"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Aluno atualizado com sucesso"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Deletar aluno",
+        "description": "Remove um aluno da base de dados",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Aluno deletado com sucesso"
+          }
+        }
+      }
+    },
+    "/notas": {
+      "get": {
+        "summary": "Obter todas as notas",
+        "description": "Retorna uma lista de todas as notas",
+        "responses": {
+          "200": {
+            "description": "Lista de notas",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Nota"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Criar nota",
+        "description": "Cria uma nova nota",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Nota"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Nota criada com sucesso"
+          }
+        }
+      }
+    },
+    "/notas/{id}": {
+      "get": {
+        "summary": "Obter nota por ID",
+        "description": "Retorna uma nota específica pelo ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Nota encontrada",
+            "schema": {
+              "$ref": "#/definitions/Nota"
+            }
+          },
+          "404": {
+            "description": "Nota não encontrada"
+          }
+        }
+      },
+      "put": {
+        "summary": "Atualizar nota",
+        "description": "Atualiza os dados de uma nota",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Nota"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Nota atualizada com sucesso"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Deletar nota",
+        "description": "Remove uma nota da base de dados",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Nota deletada com sucesso"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "UserAuth": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "Professor": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "nome": {
+          "type": "string"
+        }
+      }
+    },
+    "Aluno": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "nome": {
+          "type": "string"
+        },
+        "matricula": {
+          "type": "string"
+        }
+      }
+    },
+    "Nota": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "aluno_id": {
+          "type": "integer"
+        },
+        "professor_id": {
+          "type": "integer"
+        },
+        "valor": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    }
+  }
+}

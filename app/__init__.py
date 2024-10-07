@@ -1,19 +1,34 @@
 from flask import Flask
-from flask_jwt_extended import JWTManager
-from flask_mail import Mail
-from app.config import Config
+from flask_cors import CORS
+from flask_swagger_ui import get_swaggerui_blueprint
+from app.routes import init_app  
 
-# Inicializa o Flask
-app = Flask(__name__)
-app.config.from_object(Config)
-
-# Inicializa o JWT e o Mail
-jwt = JWTManager(app)
-mail = Mail(app)
-
-# Importa as rotas
-from app.routes import *
-
-# Inicializa o app
 def create_app():
+    app = Flask(__name__)
+    CORS(app)
+
+    # Configurações do Swagger
+    SWAGGER_URL = '/swagger'
+    API_URL = '/static/swagger.json'  # URL do arquivo swagger.json
+    swaggerui_blueprint = get_swaggerui_blueprint(
+        SWAGGER_URL,
+        API_URL,
+        config={
+            'app_name': "API de Autenticação"
+        }
+    )
+
+    app.register_blueprint(swaggerui_blueprint)
+
+    # Inicialização dos blueprints
+    init_app(app)
+
+    @app.route('/')
+    def home():
+        return "Bem-vindo à API de Autenticação!"
+
     return app
+
+if __name__ == '__main__':
+    app = create_app()
+    app.run(debug=True)

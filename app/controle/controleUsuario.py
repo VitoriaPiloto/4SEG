@@ -3,7 +3,7 @@ import random
 import string
 import pyodbc
 import smtplib
-from modelo.Usuario import Usuario
+from app.modelo.Usuario import Usuario
 from app.utilitarios.log import log_action
 
 conn_str = (
@@ -17,7 +17,7 @@ conn_str = (
 # Para fins de exemplo, use as configurações de SMTP do Gmail
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
-EMAIL_ADDRESS = 'seu_email@gmail.com'
+EMAIL_ADDRESS = 'vitoriapiloto477@gmail.com'
 EMAIL_PASSWORD = 'sua_senha'  # Tenha cuidado com senhas sensíveis
 
 # Dicionário para armazenar os códigos de segundo fator temporariamente

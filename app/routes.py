@@ -1,5 +1,3 @@
-# app/routes.py
-
 from app.controller.professorController import professor_bp
 from app.controller.autenticacaoController import auth_bp
 from app.controller.alunoController import aluno_bp

@@ -1,0 +1,1014 @@
+2024-10-07 07:55:34,370 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 07:55:34,370 - [33mPress CTRL+C to quit[0m
+2024-10-07 07:55:34,370 -  * Restarting with stat
+2024-10-07 07:55:34,983 -  * Debugger is active!
+2024-10-07 07:55:34,983 -  * Debugger PIN: 523-624-398
+2024-10-07 07:56:32,355 - 127.0.0.1 - - [07/Oct/2024 07:56:32] "GET / HTTP/1.1" 200 -
+2024-10-07 07:56:32,459 - 127.0.0.1 - - [07/Oct/2024 07:56:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-07 07:56:52,979 - 127.0.0.1 - - [07/Oct/2024 07:56:52] "[32mGET /swagger HTTP/1.1[0m" 308 -
+2024-10-07 07:56:53,285 - 127.0.0.1 - - [07/Oct/2024 07:56:53] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 07:56:53,771 - 127.0.0.1 - - [07/Oct/2024 07:56:53] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+2024-10-07 07:56:53,776 - 127.0.0.1 - - [07/Oct/2024 07:56:53] "GET /swagger/index.css HTTP/1.1" 200 -
+2024-10-07 07:56:53,778 - 127.0.0.1 - - [07/Oct/2024 07:56:53] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2024-10-07 07:56:53,780 - 127.0.0.1 - - [07/Oct/2024 07:56:53] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+2024-10-07 07:56:53,950 - 127.0.0.1 - - [07/Oct/2024 07:56:53] "[33mGET /static/swagger.json HTTP/1.1[0m" 404 -
+2024-10-07 07:56:54,283 - 127.0.0.1 - - [07/Oct/2024 07:56:54] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+2024-10-07 07:57:45,317 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 07:57:45,317 - [33mPress CTRL+C to quit[0m
+2024-10-07 07:57:45,317 -  * Restarting with stat
+2024-10-07 07:57:45,753 -  * Debugger is active!
+2024-10-07 07:57:45,768 -  * Debugger PIN: 523-624-398
+2024-10-07 07:57:48,993 - 127.0.0.1 - - [07/Oct/2024 07:57:48] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 07:57:49,071 - 127.0.0.1 - - [07/Oct/2024 07:57:49] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 07:57:49,233 - 127.0.0.1 - - [07/Oct/2024 07:57:49] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 07:57:49,352 - 127.0.0.1 - - [07/Oct/2024 07:57:49] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 07:57:49,354 - 127.0.0.1 - - [07/Oct/2024 07:57:49] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 07:57:49,743 - 127.0.0.1 - - [07/Oct/2024 07:57:49] "GET /static/swagger.json HTTP/1.1" 200 -
+2024-10-07 07:57:49,743 - 127.0.0.1 - - [07/Oct/2024 07:57:49] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-10-07 07:58:39,758 -  * Detected change in 'C:\\Users\\vmendes\\source\\repos\\4SEG\\app\\routes.py', reloading
+2024-10-07 07:58:39,807 -  * Restarting with stat
+2024-10-07 07:58:40,323 -  * Debugger is active!
+2024-10-07 07:58:40,341 -  * Debugger PIN: 523-624-398
+2024-10-07 07:58:45,135 -  * Detected change in 'C:\\Users\\vmendes\\source\\repos\\4SEG\\app\\routes.py', reloading
+2024-10-07 07:58:45,166 -  * Restarting with stat
+2024-10-07 07:58:45,652 -  * Debugger is active!
+2024-10-07 07:58:45,667 -  * Debugger PIN: 523-624-398
+2024-10-07 07:59:10,754 -  * Detected change in 'C:\\Users\\vmendes\\source\\repos\\4SEG\\app\\controller\\autenticacaoController.py', reloading
+2024-10-07 07:59:10,788 -  * Restarting with stat
+2024-10-07 07:59:11,388 -  * Debugger is active!
+2024-10-07 07:59:11,399 -  * Debugger PIN: 523-624-398
+2024-10-07 08:02:41,158 -  * Detected change in 'C:\\Users\\vmendes\\source\\repos\\4SEG\\run.py', reloading
+2024-10-07 08:02:41,205 -  * Restarting with stat
+2024-10-07 08:02:41,811 -  * Debugger is active!
+2024-10-07 08:02:41,824 -  * Debugger PIN: 523-624-398
+2024-10-07 08:02:56,997 -  * Detected change in 'C:\\Users\\vmendes\\source\\repos\\4SEG\\run.py', reloading
+2024-10-07 08:02:57,023 -  * Restarting with stat
+2024-10-07 08:02:57,592 -  * Debugger is active!
+2024-10-07 08:02:57,608 -  * Debugger PIN: 523-624-398
+2024-10-07 08:03:04,529 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 08:03:04,530 - [33mPress CTRL+C to quit[0m
+2024-10-07 08:03:04,531 -  * Restarting with stat
+2024-10-07 08:03:05,007 -  * Debugger is active!
+2024-10-07 08:03:05,025 -  * Debugger PIN: 523-624-398
+2024-10-07 08:03:09,763 - 127.0.0.1 - - [07/Oct/2024 08:03:09] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 08:03:09,841 - 127.0.0.1 - - [07/Oct/2024 08:03:09] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 08:03:10,040 - 127.0.0.1 - - [07/Oct/2024 08:03:10] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 08:03:10,124 - 127.0.0.1 - - [07/Oct/2024 08:03:10] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 08:03:10,128 - 127.0.0.1 - - [07/Oct/2024 08:03:10] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 08:03:10,518 - 127.0.0.1 - - [07/Oct/2024 08:03:10] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 08:03:10,518 - 127.0.0.1 - - [07/Oct/2024 08:03:10] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-10-07 08:03:26,873 -  * Detected change in 'C:\\Users\\vmendes\\source\\repos\\4SEG\\run.py', reloading
+2024-10-07 08:03:26,908 -  * Restarting with stat
+2024-10-07 08:03:36,009 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 08:03:36,009 - [33mPress CTRL+C to quit[0m
+2024-10-07 08:03:36,009 -  * Restarting with stat
+2024-10-07 08:03:36,449 -  * Debugger is active!
+2024-10-07 08:03:36,449 -  * Debugger PIN: 523-624-398
+2024-10-07 08:03:39,658 - 127.0.0.1 - - [07/Oct/2024 08:03:39] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 08:03:39,737 - 127.0.0.1 - - [07/Oct/2024 08:03:39] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 08:03:39,924 - 127.0.0.1 - - [07/Oct/2024 08:03:39] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 08:03:40,027 - 127.0.0.1 - - [07/Oct/2024 08:03:40] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 08:03:40,027 - 127.0.0.1 - - [07/Oct/2024 08:03:40] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 08:03:40,399 - 127.0.0.1 - - [07/Oct/2024 08:03:40] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 08:03:40,399 - 127.0.0.1 - - [07/Oct/2024 08:03:40] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-10-07 08:04:20,488 -  * Detected change in 'C:\\Users\\vmendes\\source\\repos\\4SEG\\app\\routes.py', reloading
+2024-10-07 08:04:20,519 -  * Restarting with stat
+2024-10-07 08:07:26,425 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 08:07:26,425 - [33mPress CTRL+C to quit[0m
+2024-10-07 08:07:26,427 -  * Restarting with stat
+2024-10-07 08:07:26,853 -  * Debugger is active!
+2024-10-07 08:07:26,869 -  * Debugger PIN: 523-624-398
+2024-10-07 08:07:30,891 - 127.0.0.1 - - [07/Oct/2024 08:07:30] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 08:07:30,974 - 127.0.0.1 - - [07/Oct/2024 08:07:30] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 08:07:31,157 - 127.0.0.1 - - [07/Oct/2024 08:07:31] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 08:07:31,264 - 127.0.0.1 - - [07/Oct/2024 08:07:31] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 08:07:31,265 - 127.0.0.1 - - [07/Oct/2024 08:07:31] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 08:07:31,660 - 127.0.0.1 - - [07/Oct/2024 08:07:31] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 08:07:31,660 - 127.0.0.1 - - [07/Oct/2024 08:07:31] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-10-07 09:12:30,834 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 09:12:30,834 - [33mPress CTRL+C to quit[0m
+2024-10-07 09:12:30,836 -  * Restarting with stat
+2024-10-07 09:12:31,287 -  * Debugger is active!
+2024-10-07 09:12:31,287 -  * Debugger PIN: 523-624-398
+2024-10-07 09:12:38,507 - 127.0.0.1 - - [07/Oct/2024 09:12:38] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 09:12:38,607 - 127.0.0.1 - - [07/Oct/2024 09:12:38] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 09:12:38,757 - 127.0.0.1 - - [07/Oct/2024 09:12:38] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 09:12:38,896 - 127.0.0.1 - - [07/Oct/2024 09:12:38] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 09:12:38,897 - 127.0.0.1 - - [07/Oct/2024 09:12:38] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 09:12:39,274 - 127.0.0.1 - - [07/Oct/2024 09:12:39] "GET /static/swagger.json HTTP/1.1" 200 -
+2024-10-07 09:14:40,909 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 09:14:40,909 - [33mPress CTRL+C to quit[0m
+2024-10-07 09:14:40,910 -  * Restarting with stat
+2024-10-07 09:14:41,364 -  * Debugger is active!
+2024-10-07 09:14:41,380 -  * Debugger PIN: 523-624-398
+2024-10-07 09:14:44,540 - 127.0.0.1 - - [07/Oct/2024 09:14:44] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 09:14:44,628 - 127.0.0.1 - - [07/Oct/2024 09:14:44] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 09:14:44,795 - 127.0.0.1 - - [07/Oct/2024 09:14:44] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 09:14:44,909 - 127.0.0.1 - - [07/Oct/2024 09:14:44] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 09:14:44,914 - 127.0.0.1 - - [07/Oct/2024 09:14:44] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 09:14:45,293 - 127.0.0.1 - - [07/Oct/2024 09:14:45] "GET /static/swagger.json HTTP/1.1" 200 -
+2024-10-07 09:14:45,312 - 127.0.0.1 - - [07/Oct/2024 09:14:45] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-10-07 09:18:30,242 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 09:18:30,243 - [33mPress CTRL+C to quit[0m
+2024-10-07 09:18:30,245 -  * Restarting with stat
+2024-10-07 09:18:30,671 -  * Debugger is active!
+2024-10-07 09:18:30,686 -  * Debugger PIN: 523-624-398
+2024-10-07 09:18:34,233 - 127.0.0.1 - - [07/Oct/2024 09:18:34] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 09:18:34,306 - 127.0.0.1 - - [07/Oct/2024 09:18:34] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 09:18:34,492 - 127.0.0.1 - - [07/Oct/2024 09:18:34] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 09:18:34,597 - 127.0.0.1 - - [07/Oct/2024 09:18:34] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 09:18:34,598 - 127.0.0.1 - - [07/Oct/2024 09:18:34] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 09:18:34,981 - 127.0.0.1 - - [07/Oct/2024 09:18:34] "GET /static/swagger.json HTTP/1.1" 200 -
+2024-10-07 09:18:34,981 - 127.0.0.1 - - [07/Oct/2024 09:18:34] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-10-07 09:23:17,048 - 127.0.0.1 - - [07/Oct/2024 09:23:17] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 09:23:59,520 - 127.0.0.1 - - [07/Oct/2024 09:23:59] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 09:24:00,728 - 127.0.0.1 - - [07/Oct/2024 09:24:00] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 09:24:17,158 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 09:24:17,158 - [33mPress CTRL+C to quit[0m
+2024-10-07 09:24:17,158 -  * Restarting with stat
+2024-10-07 09:24:17,606 -  * Debugger is active!
+2024-10-07 09:24:17,622 -  * Debugger PIN: 523-624-398
+2024-10-07 09:24:41,973 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 09:24:41,973 - [33mPress CTRL+C to quit[0m
+2024-10-07 09:24:41,977 -  * Restarting with stat
+2024-10-07 09:25:25,241 -  * Debugger is active!
+2024-10-07 09:25:25,262 -  * Debugger PIN: 450-896-857
+2024-10-07 09:25:31,864 - 127.0.0.1 - - [07/Oct/2024 09:25:31] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 09:25:44,383 - 127.0.0.1 - - [07/Oct/2024 09:25:44] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 09:25:45,741 - 127.0.0.1 - - [07/Oct/2024 09:25:45] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 10:17:05,559 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 10:17:05,560 - [33mPress CTRL+C to quit[0m
+2024-10-07 10:17:12,687 - 127.0.0.1 - - [07/Oct/2024 10:17:12] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 10:17:59,264 - 127.0.0.1 - - [07/Oct/2024 10:17:59] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 10:18:25,354 - 127.0.0.1 - - [07/Oct/2024 10:18:25] "[33mPOST /default/auth HTTP/1.1[0m" 404 -
+2024-10-07 10:19:05,915 - 127.0.0.1 - - [07/Oct/2024 10:19:05] "[35m[1mPOST /autenticar HTTP/1.1[0m" 500 -
+2024-10-07 10:19:05,964 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\autenticacaoController.py", line 18, in auth
+    resultado = autenticar_usuario(username, password, ip)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controle\controleUsuario.py", line 27, in autenticar_usuario
+    user = buscar_usuario_por_username(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controle\controleUsuario.py", line 72, in buscar_usuario_por_username
+    cursor.execute("SELECT id, username, senha, nome, email, perfil, ip_autorizado FROM usuario WHERE username = ?", username)
+pyodbc.ProgrammingError: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Nome de coluna 'ip_autorizado' inválido. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Não foi possível preparar uma ou mais instruções. (8180)")
+2024-10-07 10:27:12,045 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 10:27:12,046 - [33mPress CTRL+C to quit[0m
+2024-10-07 10:27:18,984 - 127.0.0.1 - - [07/Oct/2024 10:27:18] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 10:27:26,562 - 127.0.0.1 - - [07/Oct/2024 10:27:26] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 10:27:26,882 - 127.0.0.1 - - [07/Oct/2024 10:27:26] "GET /swagger/index.css HTTP/1.1" 200 -
+2024-10-07 10:27:26,933 - 127.0.0.1 - - [07/Oct/2024 10:27:26] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+2024-10-07 10:27:26,934 - 127.0.0.1 - - [07/Oct/2024 10:27:26] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+2024-10-07 10:27:26,942 - 127.0.0.1 - - [07/Oct/2024 10:27:26] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2024-10-07 10:27:27,420 - 127.0.0.1 - - [07/Oct/2024 10:27:27] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 10:27:27,428 - 127.0.0.1 - - [07/Oct/2024 10:27:27] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+2024-10-07 10:27:33,747 - 127.0.0.1 - - [07/Oct/2024 10:27:33] "GET /professores HTTP/1.1" 200 -
+2024-10-07 10:27:54,009 - 127.0.0.1 - - [07/Oct/2024 10:27:54] "[35m[1mPOST /professores HTTP/1.1[0m" 500 -
+2024-10-07 10:27:54,044 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\professorController.py", line 35, in add_professor
+    cursor.execute("INSERT INTO Professor (nome, email) VALUES (?, ?)", data['nome'], data['email'])
+                                                                                      ^^^^^^^^^^^^^^
+KeyError: 'email'
+2024-10-07 10:27:57,724 - 127.0.0.1 - - [07/Oct/2024 10:27:57] "[35m[1mPOST /professores HTTP/1.1[0m" 500 -
+2024-10-07 10:27:57,742 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\professorController.py", line 35, in add_professor
+    cursor.execute("INSERT INTO Professor (nome, email) VALUES (?, ?)", data['nome'], data['email'])
+                                                                                      ^^^^^^^^^^^^^^
+KeyError: 'email'
+2024-10-07 10:28:18,193 - 127.0.0.1 - - [07/Oct/2024 10:28:18] "[33mGET /professores/0 HTTP/1.1[0m" 404 -
+2024-10-07 10:30:34,407 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 10:30:34,408 - [33mPress CTRL+C to quit[0m
+2024-10-07 10:30:42,909 - 127.0.0.1 - - [07/Oct/2024 10:30:42] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 10:30:43,004 - 127.0.0.1 - - [07/Oct/2024 10:30:43] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 10:30:43,140 - 127.0.0.1 - - [07/Oct/2024 10:30:43] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 10:30:43,279 - 127.0.0.1 - - [07/Oct/2024 10:30:43] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 10:30:43,288 - 127.0.0.1 - - [07/Oct/2024 10:30:43] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 10:30:43,756 - 127.0.0.1 - - [07/Oct/2024 10:30:43] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 10:30:43,760 - 127.0.0.1 - - [07/Oct/2024 10:30:43] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-10-07 10:32:35,505 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 10:32:35,505 - [33mPress CTRL+C to quit[0m
+2024-10-07 10:32:45,185 - 127.0.0.1 - - [07/Oct/2024 10:32:45] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 10:32:45,282 - 127.0.0.1 - - [07/Oct/2024 10:32:45] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 10:32:45,423 - 127.0.0.1 - - [07/Oct/2024 10:32:45] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 10:32:45,564 - 127.0.0.1 - - [07/Oct/2024 10:32:45] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 10:32:45,569 - 127.0.0.1 - - [07/Oct/2024 10:32:45] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 10:32:46,006 - 127.0.0.1 - - [07/Oct/2024 10:32:46] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 10:32:46,011 - 127.0.0.1 - - [07/Oct/2024 10:32:46] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-10-07 10:36:26,783 - 127.0.0.1 - - [07/Oct/2024 10:36:26] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 10:37:24,738 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 10:37:24,738 - [33mPress CTRL+C to quit[0m
+2024-10-07 10:37:29,435 - 127.0.0.1 - - [07/Oct/2024 10:37:29] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 10:37:29,510 - 127.0.0.1 - - [07/Oct/2024 10:37:29] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 10:37:29,678 - 127.0.0.1 - - [07/Oct/2024 10:37:29] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 10:37:29,792 - 127.0.0.1 - - [07/Oct/2024 10:37:29] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 10:37:29,795 - 127.0.0.1 - - [07/Oct/2024 10:37:29] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 10:37:30,264 - 127.0.0.1 - - [07/Oct/2024 10:37:30] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 10:37:30,268 - 127.0.0.1 - - [07/Oct/2024 10:37:30] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-10-07 10:37:37,354 - 127.0.0.1 - - [07/Oct/2024 10:37:37] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 10:37:37,665 - 127.0.0.1 - - [07/Oct/2024 10:37:37] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 10:37:37,714 - 127.0.0.1 - - [07/Oct/2024 10:37:37] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 10:37:37,717 - 127.0.0.1 - - [07/Oct/2024 10:37:37] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 10:37:37,723 - 127.0.0.1 - - [07/Oct/2024 10:37:37] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 10:37:38,100 - 127.0.0.1 - - [07/Oct/2024 10:37:38] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 10:37:38,106 - 127.0.0.1 - - [07/Oct/2024 10:37:38] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-10-07 10:37:45,983 - 127.0.0.1 - - [07/Oct/2024 10:37:45] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 10:39:21,188 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 10:39:21,189 - [33mPress CTRL+C to quit[0m
+2024-10-07 10:39:24,777 - 127.0.0.1 - - [07/Oct/2024 10:39:24] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 10:39:24,885 - 127.0.0.1 - - [07/Oct/2024 10:39:24] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 10:39:25,011 - 127.0.0.1 - - [07/Oct/2024 10:39:25] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 10:39:25,170 - 127.0.0.1 - - [07/Oct/2024 10:39:25] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 10:39:25,174 - 127.0.0.1 - - [07/Oct/2024 10:39:25] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 10:39:25,619 - 127.0.0.1 - - [07/Oct/2024 10:39:25] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 10:39:25,636 - 127.0.0.1 - - [07/Oct/2024 10:39:25] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-10-07 10:39:31,002 - 127.0.0.1 - - [07/Oct/2024 10:39:31] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+2024-10-07 10:39:31,034 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\autenticacaoController.py", line 18, in autenticar
+    resultado = autenticar_usuario(username, password, ip)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controle\controleUsuario.py", line 27, in autenticar_usuario
+    user = buscar_usuario_por_username(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controle\controleUsuario.py", line 72, in buscar_usuario_por_username
+    cursor.execute("SELECT id, username, senha, nome, email, perfil, ip_autorizado FROM usuario WHERE username = ?", username)
+pyodbc.ProgrammingError: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Nome de coluna 'ip_autorizado' inválido. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Não foi possível preparar uma ou mais instruções. (8180)")
+2024-10-07 10:39:38,066 - 127.0.0.1 - - [07/Oct/2024 10:39:38] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+2024-10-07 10:39:38,071 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\autenticacaoController.py", line 18, in autenticar
+    resultado = autenticar_usuario(username, password, ip)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controle\controleUsuario.py", line 27, in autenticar_usuario
+    user = buscar_usuario_por_username(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controle\controleUsuario.py", line 72, in buscar_usuario_por_username
+    cursor.execute("SELECT id, username, senha, nome, email, perfil, ip_autorizado FROM usuario WHERE username = ?", username)
+pyodbc.ProgrammingError: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Nome de coluna 'ip_autorizado' inválido. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Não foi possível preparar uma ou mais instruções. (8180)")
+2024-10-07 10:42:32,507 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 10:42:32,507 - [33mPress CTRL+C to quit[0m
+2024-10-07 10:42:43,965 - 127.0.0.1 - - [07/Oct/2024 10:42:43] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 10:42:44,084 - 127.0.0.1 - - [07/Oct/2024 10:42:44] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 10:42:44,187 - 127.0.0.1 - - [07/Oct/2024 10:42:44] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 10:42:44,360 - 127.0.0.1 - - [07/Oct/2024 10:42:44] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 10:42:44,366 - 127.0.0.1 - - [07/Oct/2024 10:42:44] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 10:42:44,752 - 127.0.0.1 - - [07/Oct/2024 10:42:44] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 10:42:51,442 - 127.0.0.1 - - [07/Oct/2024 10:42:51] "[35m[1mGET /notas HTTP/1.1[0m" 500 -
+2024-10-07 10:42:51,466 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\notaController.py", line 20, in get_notas
+    cursor.execute("SELECT * FROM Nota")
+pyodbc.ProgrammingError: ('42S02', "[42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Nome de objeto 'Nota' inválido. (208) (SQLExecDirectW)")
+2024-10-07 10:42:53,481 - 127.0.0.1 - - [07/Oct/2024 10:42:53] "[35m[1mGET /notas HTTP/1.1[0m" 500 -
+2024-10-07 10:42:53,487 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\notaController.py", line 20, in get_notas
+    cursor.execute("SELECT * FROM Nota")
+pyodbc.ProgrammingError: ('42S02', "[42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Nome de objeto 'Nota' inválido. (208) (SQLExecDirectW)")
+2024-10-07 10:43:09,007 - 127.0.0.1 - - [07/Oct/2024 10:43:09] "GET /professores HTTP/1.1" 200 -
+2024-10-07 10:43:10,685 - 127.0.0.1 - - [07/Oct/2024 10:43:10] "GET /professores HTTP/1.1" 200 -
+2024-10-07 10:43:15,871 - 127.0.0.1 - - [07/Oct/2024 10:43:15] "GET /professores HTTP/1.1" 200 -
+2024-10-07 10:43:17,498 - 127.0.0.1 - - [07/Oct/2024 10:43:17] "GET /professores HTTP/1.1" 200 -
+2024-10-07 10:43:22,783 - 127.0.0.1 - - [07/Oct/2024 10:43:22] "GET /alunos HTTP/1.1" 200 -
+2024-10-07 10:43:25,073 - 127.0.0.1 - - [07/Oct/2024 10:43:25] "GET /alunos HTTP/1.1" 200 -
+2024-10-07 10:43:26,754 - 127.0.0.1 - - [07/Oct/2024 10:43:26] "GET /alunos HTTP/1.1" 200 -
+2024-10-07 10:43:42,263 - 127.0.0.1 - - [07/Oct/2024 10:43:42] "[33mGET /alunos/0 HTTP/1.1[0m" 404 -
+2024-10-07 10:43:46,235 - 127.0.0.1 - - [07/Oct/2024 10:43:46] "[35m[1mGET /notas HTTP/1.1[0m" 500 -
+2024-10-07 10:43:46,261 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\notaController.py", line 20, in get_notas
+    cursor.execute("SELECT * FROM Nota")
+pyodbc.ProgrammingError: ('42S02', "[42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Nome de objeto 'Nota' inválido. (208) (SQLExecDirectW)")
+2024-10-07 10:43:47,418 - 127.0.0.1 - - [07/Oct/2024 10:43:47] "[35m[1mGET /notas HTTP/1.1[0m" 500 -
+2024-10-07 10:43:47,425 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\notaController.py", line 20, in get_notas
+    cursor.execute("SELECT * FROM Nota")
+pyodbc.ProgrammingError: ('42S02', "[42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Nome de objeto 'Nota' inválido. (208) (SQLExecDirectW)")
+2024-10-07 10:48:13,032 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 10:48:13,033 - [33mPress CTRL+C to quit[0m
+2024-10-07 10:48:19,527 - 127.0.0.1 - - [07/Oct/2024 10:48:19] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 10:48:19,635 - 127.0.0.1 - - [07/Oct/2024 10:48:19] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 10:48:19,767 - 127.0.0.1 - - [07/Oct/2024 10:48:19] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 10:48:19,922 - 127.0.0.1 - - [07/Oct/2024 10:48:19] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 10:48:19,927 - 127.0.0.1 - - [07/Oct/2024 10:48:19] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 10:48:20,379 - 127.0.0.1 - - [07/Oct/2024 10:48:20] "[33mGET /static/swagger.json HTTP/1.1[0m" 404 -
+2024-10-07 10:48:55,797 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 10:48:55,798 - [33mPress CTRL+C to quit[0m
+2024-10-07 10:48:59,405 - 127.0.0.1 - - [07/Oct/2024 10:48:59] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 10:48:59,503 - 127.0.0.1 - - [07/Oct/2024 10:48:59] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 10:48:59,644 - 127.0.0.1 - - [07/Oct/2024 10:48:59] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 10:48:59,789 - 127.0.0.1 - - [07/Oct/2024 10:48:59] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 10:48:59,791 - 127.0.0.1 - - [07/Oct/2024 10:48:59] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 10:49:00,199 - 127.0.0.1 - - [07/Oct/2024 10:49:00] "GET /static/swagger.json HTTP/1.1" 200 -
+2024-10-07 10:49:00,202 - 127.0.0.1 - - [07/Oct/2024 10:49:00] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-10-07 10:49:07,348 - 127.0.0.1 - - [07/Oct/2024 10:49:07] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 10:49:12,266 - 127.0.0.1 - - [07/Oct/2024 10:49:12] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 10:49:22,105 - 127.0.0.1 - - [07/Oct/2024 10:49:22] "[35m[1mGET /notas HTTP/1.1[0m" 500 -
+2024-10-07 10:49:22,160 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\notaController.py", line 20, in get_notas
+    cursor.execute("SELECT * FROM Nota")
+pyodbc.ProgrammingError: ('42S02', "[42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Nome de objeto 'Nota' inválido. (208) (SQLExecDirectW)")
+2024-10-07 10:49:24,661 - 127.0.0.1 - - [07/Oct/2024 10:49:24] "[35m[1mGET /notas HTTP/1.1[0m" 500 -
+2024-10-07 10:49:24,667 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\notaController.py", line 20, in get_notas
+    cursor.execute("SELECT * FROM Nota")
+pyodbc.ProgrammingError: ('42S02', "[42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Nome de objeto 'Nota' inválido. (208) (SQLExecDirectW)")
+2024-10-07 10:49:28,238 - 127.0.0.1 - - [07/Oct/2024 10:49:28] "GET /professores HTTP/1.1" 200 -
+2024-10-07 10:49:38,115 - 127.0.0.1 - - [07/Oct/2024 10:49:38] "[35m[1mPOST /professores HTTP/1.1[0m" 500 -
+2024-10-07 10:49:38,121 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\professorController.py", line 35, in add_professor
+    cursor.execute("INSERT INTO Professor (nome, email) VALUES (?, ?)", data['nome'], data['email'])
+                                                                                      ^^^^^^^^^^^^^^
+KeyError: 'email'
+2024-10-07 10:49:48,141 - 127.0.0.1 - - [07/Oct/2024 10:49:48] "[35m[1mPOST /alunos HTTP/1.1[0m" 500 -
+2024-10-07 10:49:48,155 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\alunoController.py", line 36, in add_aluno
+    cursor.execute("INSERT INTO Aluno (nome, email) VALUES (?, ?)", data['nome'], data['email'])
+                                                                                  ^^^^^^^^^^^^^^
+KeyError: 'email'
+2024-10-07 10:51:48,848 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 10:51:48,849 - [33mPress CTRL+C to quit[0m
+2024-10-07 10:51:54,498 - 127.0.0.1 - - [07/Oct/2024 10:51:54] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 10:51:54,613 - 127.0.0.1 - - [07/Oct/2024 10:51:54] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 10:51:54,720 - 127.0.0.1 - - [07/Oct/2024 10:51:54] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 10:51:54,891 - 127.0.0.1 - - [07/Oct/2024 10:51:54] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 10:51:54,897 - 127.0.0.1 - - [07/Oct/2024 10:51:54] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 10:51:55,345 - 127.0.0.1 - - [07/Oct/2024 10:51:55] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 10:52:05,556 - 127.0.0.1 - - [07/Oct/2024 10:52:05] "[35m[1mPOST /alunos HTTP/1.1[0m" 500 -
+2024-10-07 10:52:05,594 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\alunoController.py", line 36, in add_aluno
+    cursor.execute("INSERT INTO Aluno (nome, email) VALUES (?, ?)", data['nome'], data['email'])
+                                                                                  ^^^^^^^^^^^^^^
+KeyError: 'email'
+2024-10-07 10:52:09,188 - 127.0.0.1 - - [07/Oct/2024 10:52:09] "[35m[1mPOST /alunos HTTP/1.1[0m" 500 -
+2024-10-07 10:52:09,194 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\alunoController.py", line 36, in add_aluno
+    cursor.execute("INSERT INTO Aluno (nome, email) VALUES (?, ?)", data['nome'], data['email'])
+                                                                                  ^^^^^^^^^^^^^^
+KeyError: 'email'
+2024-10-07 10:53:45,950 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 10:53:45,951 - [33mPress CTRL+C to quit[0m
+2024-10-07 10:53:58,884 - 127.0.0.1 - - [07/Oct/2024 10:53:58] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 10:53:59,001 - 127.0.0.1 - - [07/Oct/2024 10:53:59] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 10:53:59,120 - 127.0.0.1 - - [07/Oct/2024 10:53:59] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 10:53:59,282 - 127.0.0.1 - - [07/Oct/2024 10:53:59] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 10:53:59,284 - 127.0.0.1 - - [07/Oct/2024 10:53:59] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 10:53:59,680 - 127.0.0.1 - - [07/Oct/2024 10:53:59] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 10:54:05,790 - 127.0.0.1 - - [07/Oct/2024 10:54:05] "[35m[1mPOST /autenticar HTTP/1.1[0m" 500 -
+2024-10-07 10:54:05,822 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\autenticacaoController.py", line 18, in autenticar
+    resultado = autenticar_usuario(username, password, ip)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controle\controleUsuario.py", line 27, in autenticar_usuario
+    user = buscar_usuario_por_username(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controle\controleUsuario.py", line 72, in buscar_usuario_por_username
+    cursor.execute("SELECT id, username, senha, nome, email, perfil, ip_autorizado FROM usuario WHERE username = ?", username)
+pyodbc.ProgrammingError: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Nome de coluna 'ip_autorizado' inválido. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Não foi possível preparar uma ou mais instruções. (8180)")
+2024-10-07 10:54:33,563 - 127.0.0.1 - - [07/Oct/2024 10:54:33] "[35m[1mPOST /alunos HTTP/1.1[0m" 500 -
+2024-10-07 10:54:33,569 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\alunoController.py", line 36, in add_aluno
+    cursor.execute("INSERT INTO Aluno (nome, email) VALUES (?, ?)", data['nome'], data['email'])
+                                                                                  ^^^^^^^^^^^^^^
+KeyError: 'email'
+2024-10-07 10:54:34,926 - 127.0.0.1 - - [07/Oct/2024 10:54:34] "[35m[1mPOST /alunos HTTP/1.1[0m" 500 -
+2024-10-07 10:54:34,931 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\alunoController.py", line 36, in add_aluno
+    cursor.execute("INSERT INTO Aluno (nome, email) VALUES (?, ?)", data['nome'], data['email'])
+                                                                                  ^^^^^^^^^^^^^^
+KeyError: 'email'
+2024-10-07 10:58:15,243 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 10:58:15,243 - [33mPress CTRL+C to quit[0m
+2024-10-07 10:58:23,526 - 127.0.0.1 - - [07/Oct/2024 10:58:23] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 10:58:23,644 - 127.0.0.1 - - [07/Oct/2024 10:58:23] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 10:58:23,748 - 127.0.0.1 - - [07/Oct/2024 10:58:23] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 10:58:23,937 - 127.0.0.1 - - [07/Oct/2024 10:58:23] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 10:58:23,942 - 127.0.0.1 - - [07/Oct/2024 10:58:23] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 10:58:24,326 - 127.0.0.1 - - [07/Oct/2024 10:58:24] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 10:58:31,422 - 127.0.0.1 - - [07/Oct/2024 10:58:31] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 10:58:33,103 - 127.0.0.1 - - [07/Oct/2024 10:58:33] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 10:58:53,673 - 127.0.0.1 - - [07/Oct/2024 10:58:53] "[35m[1mPOST /autenticar HTTP/1.1[0m" 500 -
+2024-10-07 10:58:53,709 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\autenticacaoController.py", line 19, in autenticar
+    resultado = autenticar_usuario(username, password, ip)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controle\controleUsuario.py", line 27, in autenticar_usuario
+    user = buscar_usuario_por_username(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controle\controleUsuario.py", line 72, in buscar_usuario_por_username
+    cursor.execute("SELECT id, username, senha, nome, email, perfil, ip_autorizado FROM usuario WHERE username = ?", username)
+pyodbc.ProgrammingError: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Nome de coluna 'ip_autorizado' inválido. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Não foi possível preparar uma ou mais instruções. (8180)")
+2024-10-07 11:02:50,195 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-07 11:02:50,196 - [33mPress CTRL+C to quit[0m
+2024-10-07 11:03:07,972 - 127.0.0.1 - - [07/Oct/2024 11:03:07] "GET /swagger/ HTTP/1.1" 200 -
+2024-10-07 11:03:08,106 - 127.0.0.1 - - [07/Oct/2024 11:03:08] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-10-07 11:03:08,212 - 127.0.0.1 - - [07/Oct/2024 11:03:08] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-10-07 11:03:08,383 - 127.0.0.1 - - [07/Oct/2024 11:03:08] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-10-07 11:03:08,385 - 127.0.0.1 - - [07/Oct/2024 11:03:08] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-10-07 11:03:08,834 - 127.0.0.1 - - [07/Oct/2024 11:03:08] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2024-10-07 11:03:14,749 - 127.0.0.1 - - [07/Oct/2024 11:03:14] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 11:03:17,623 - 127.0.0.1 - - [07/Oct/2024 11:03:17] "[33mPOST /auth HTTP/1.1[0m" 404 -
+2024-10-07 11:03:39,029 - 127.0.0.1 - - [07/Oct/2024 11:03:39] "[35m[1mGET /notas HTTP/1.1[0m" 500 -
+2024-10-07 11:03:39,069 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\notaController.py", line 20, in get_notas
+    cursor.execute("SELECT * FROM Nota")
+pyodbc.ProgrammingError: ('42S02', "[42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Nome de objeto 'Nota' inválido. (208) (SQLExecDirectW)")
+2024-10-07 11:03:41,142 - 127.0.0.1 - - [07/Oct/2024 11:03:41] "[35m[1mGET /notas HTTP/1.1[0m" 500 -
+2024-10-07 11:03:41,148 - Error on request:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "c:\Python312\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vmendes\source\repos\4SEG\app\controller\notaController.py", line 20, in get_notas
+    cursor.execute("SELECT * FROM Nota")
+pyodbc.ProgrammingError: ('42S02', "[42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Nome de objeto 'Nota' inválido. (208) (SQLExecDirectW)")
