@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "Autenticator.Controllers.TwoFactorController",
+    "Method": "GenerateTwoFactorCode",
+    "RelativePath": "api/2fa/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Autenticator.Controllers.TwoFactorController",
+    "Method": "VerifyTwoFactorCode",
+    "RelativePath": "api/2fa/verify",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Dto",
+        "Type": "Autenticator.Dtos._2FADto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AuthController",
     "Method": "Login",
     "RelativePath": "api/login",
@@ -28,7 +60,7 @@
   {
     "ContainingType": "Autenticator.Controllers.LogsController",
     "Method": "ObterLogs",
-    "RelativePath": "api/logs/ObterLogs",
+    "RelativePath": "api/logs/getLogs",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
