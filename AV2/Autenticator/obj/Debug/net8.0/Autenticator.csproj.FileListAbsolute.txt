@@ -79,3 +79,6 @@ C:\Users\vmendes\source\repos\4SEG\AV2\Autenticator\obj\Debug\net8.0\refint\Aute
 C:\Users\vmendes\source\repos\4SEG\AV2\Autenticator\obj\Debug\net8.0\Autenticator.pdb
 C:\Users\vmendes\source\repos\4SEG\AV2\Autenticator\obj\Debug\net8.0\Autenticator.genruntimeconfig.cache
 C:\Users\vmendes\source\repos\4SEG\AV2\Autenticator\obj\Debug\net8.0\ref\Autenticator.dll
+C:\Users\vmendes\source\repos\4SEG\AV2\Autenticator\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\vmendes\source\repos\4SEG\AV2\Autenticator\bin\Debug\net8.0\SendGrid.dll
+C:\Users\vmendes\source\repos\4SEG\AV2\Autenticator\bin\Debug\net8.0\StarkbankEcdsa.dll
