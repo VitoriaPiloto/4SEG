@@ -18,9 +18,17 @@ namespace Autenticator.Controllers
             _dbContext = dbContext;
         }
 
+        [Authorize]
         [HttpGet("getLogs")]
         public IQueryable<SecurityLog> ObterLogs()
         {
+            var token = Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last(); // Pega o token do header
+
+            if (_dbContext.BlacklistTokens.Any(x => x.Token == token))
+            {
+                throw new Exception("Token já invalidado");
+            }
+
             return _dbContext.LogsSeguranca.AsQueryable();
         }
     }

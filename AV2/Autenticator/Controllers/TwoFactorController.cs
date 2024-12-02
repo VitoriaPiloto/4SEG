@@ -27,6 +27,13 @@ namespace Autenticator.Controllers
             if (string.IsNullOrEmpty(email))
                 return BadRequest("E-mail não pode estar vazio.");
 
+            var token = Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last(); // Pega o token do header
+
+            if (_dbContext.BlacklistTokens.Any(x => x.Token == token))
+            {
+                throw new Exception("Token já invalidado");
+            }
+
             var random = new Random();
             var codigo = random.Next(1000, 9999).ToString();
 
@@ -55,6 +62,13 @@ namespace Autenticator.Controllers
         {
             var query = _dbContext.TwoFactor.AsQueryable();
             var record = query.FirstOrDefault(r => r.Email == Dto.Email && r.Codigo == Dto.Codigo);
+
+            var token = Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last(); // Pega o token do header
+
+            if (_dbContext.BlacklistTokens.Any(x => x.Token == token))
+            {
+                throw new Exception("Token já invalidado");
+            }
 
             if (record == null)
                 return BadRequest("Código inválido.");
