@@ -59,6 +59,7 @@ public class AuthController : ControllerBase
         return Ok(new { Token = token });
     }
 
+    [Authorize]
     [HttpPost("logout")]
     public async Task<IActionResult> Logout()
     {
@@ -94,6 +95,7 @@ public class AuthController : ControllerBase
         }
     }
 
+    [Authorize]
     [HttpGet("refresh")]
     public async Task<IActionResult> RefreshToken()
     {
@@ -125,13 +127,20 @@ public class AuthController : ControllerBase
         return Ok(new { NovoTokenAcesso = newAccessToken });
     }
 
+    [Authorize]
     [HttpPost("validate")]
-    public ClaimsPrincipal ValidateToken()
+    public SecurityToken? ValidateToken()
     {
         var token = Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last(); // Pega o token do header
+
+        if (_dbContext.BlacklistTokens.Any(x => x.Token == token))
+        {
+            throw new Exception("Token já invalidado");
+        }
+
         try
         {
-            var key = Encoding.UTF8.GetBytes(_configuration["Jwt:Secret"]);
+            var key = Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]);
             var tokenValidationParameters = new TokenValidationParameters
             {
                 ValidateIssuer = false,
@@ -142,7 +151,7 @@ public class AuthController : ControllerBase
 
             var principal = _tokenHandler.ValidateToken(token, tokenValidationParameters, out var validatedToken);
 
-            return principal;
+            return validatedToken;
         }
         catch
         {

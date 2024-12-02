@@ -1,6 +1,7 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using Autenticator.Dtos;
 using Autenticator.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
@@ -46,6 +47,20 @@ namespace Autenticator.Controllers
             await _dbContext.SaveChangesAsync();
 
             return Ok("Usuário registrado com sucesso.");
+        }
+
+        [Authorize]
+        [HttpGet]
+        public IQueryable<User> GetUsers()
+        {
+            var token = Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last(); // Pega o token do header
+
+            if (_dbContext.BlacklistTokens.Any(x => x.Token == token))
+            {
+                throw new Exception("Token já invalidado");
+            }
+
+            return _dbContext.Usuarios.AsQueryable();
         }
     }
 }
