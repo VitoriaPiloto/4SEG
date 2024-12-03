@@ -44,9 +44,12 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 2. Configure as variáveis de ambiente no appsettings
 
     ```bash
-    DATABASE_URL=seu-banco-de-dados
-    JWT_SECRET=sua-chave-secreta
-    PORT=3000
+    "jwt": {
+    "key": "chave jwt"
+     },
+     "Smtp": {
+       "Key": "chave api grid mail",
+     }
     ```
 3. Execute a aplicação
 
