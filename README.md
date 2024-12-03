@@ -14,7 +14,7 @@ Este repositório contém os arquivos e projetos relacionados às disciplinas cu
 
 Este repositório abrange projetos que utilizam as seguintes tecnologias:
 
-- **Linguagens de Programação**: Pytho, C#
+- **Linguagens de Programação**: Python, C#
 - **Frameworks**: Flask, Entity Framework
 
 ## 🌟 Como Utilizar
